@@ -764,10 +764,13 @@ section {
     font-size: 3rem;
   }
   .section {
-    padding: 2rem 2.5rem;
+    padding: 2rem;
   }
   .controlls .control {
     margin: 1rem 0.35rem !important;
+  }
+  .timeline {
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (max-width: 900px) {
